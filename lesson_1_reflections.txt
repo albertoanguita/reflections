@@ -1,0 +1,54 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    It helped me because it clearly highlighted the changes from one 
+    file to another, avoiding the hassle of going through each line of 
+    the files. In addition, it is easy to overlook a type when it is 
+    caused just by a single character.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    The gistory of a file gives me information about how that file
+    evolved in time. That information can be very valuable when studing 
+    and legacy code file
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    Pros of manual: Each commited version corresponds to a consistent 
+    state of the content. You can separate commits by logical changes.
+    Cons of manual: You can forget to make commits.
+    Pros of automatic: You can forget about the commits and focus on 
+    coding.
+    Cons of automatic: Commit versions might not reflect logical 
+    changes in code. There might be too small or too big commits.
+
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    Because Git is targeted at code projects, which consist in many 
+    files. Google docs however does not have the concept of 
+    "repository" because users work with individual files.
+
+How can you use the commands git log and git diff to view the history of files?
+
+    git log provides me the set of snapshots of the repository files, 
+    each saved state. git diff shows the changes between an arbitrary 
+    pair of valid states.
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    Fill in your answer here
+    Provided that I make regular commits with meaningful messages, it 
+    is easy to revert to previous states of the code. In case I 
+    introduce an error, I can easily find at which point I made it 
+    and find its causes.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    I would like to do some tests with branches, as I have read about 
+    them long ago but never tried it. 
