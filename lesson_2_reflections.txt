@@ -7,6 +7,13 @@ What happens when you initialize a repository? Why do you need to do it?
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
 
+	The working directory stores the local copies of my files, with the 
+	latest changes that I introduced. The staging area stores the 
+	changes in my working directory with respect to my last commit. The 
+	repository stores the latest files state that I committed (together 
+	with all other commits). Having the staging area allows me to 
+	review the changes since my last commit easily.
+
 How can you use the staging area to make sure you have one commit per logical
 change?
 
