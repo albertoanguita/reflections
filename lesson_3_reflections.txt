@@ -37,6 +37,8 @@ What is the benefit of having a copy of the last known state of the remote
 stored locally?
 
     Fill in your answer here
+    So we can have access to the commit history of the remote and make local commits 
+    over it, even being offline for long periods of time.
 
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
