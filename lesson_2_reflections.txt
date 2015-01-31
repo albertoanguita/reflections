@@ -25,10 +25,29 @@ change?
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
+	In situations in which I want to have two or more separate versions 
+	of my code (i.e. an experimental feature). Branches help by 
+	allowing me to revert to a branch that does not contain the 
+	changes in the new branch, or merging the new branch only when I 
+	am sure that the changes are good.
+
 How do the diagrams help you visualize the branch structure?
+
+	Diagrams allow me to see the amount of branches, and where they do 
+	converge.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
+	The result is a single branch combining the changes from both 
+	branches. We represent it this way because the two branches 
+	indeed merge into a single one, so one of the branches will 
+	be removed.
+
 What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
+
+	Pros: saves us time by merging code by itself
+	Cons: there might be some merging that we would do differently 
+	from the way git did it. By doing it manually, we can check if 
+	a merging makes sense and decide the proper way to do it.
