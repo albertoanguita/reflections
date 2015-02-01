@@ -42,7 +42,6 @@ stored locally?
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
 
-    Fill in your answer here
     I could use a more basic synch service, like dropbox or google 
     drive. The advantage of these is that I don't have to worry 
     about commits, pushes and pulls. The disadvantage is loosing 
@@ -54,4 +53,6 @@ and what would be harder?
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
-    Fill in your answer here
+    When I want to include something new in the code, but I don't 
+    want it to interfere with the master branch until it is properly 
+    tested/reviewed by the involved collaborators.
