@@ -36,7 +36,6 @@ use one instead of another?
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
 
-    Fill in your answer here
     So we can have access to the commit history of the remote and make local commits 
     over it, even being offline for long periods of time.
 
@@ -44,6 +43,13 @@ How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
 
     Fill in your answer here
+    I could use a more basic synch service, like dropbox or google 
+    drive. The advantage of these is that I don't have to worry 
+    about commits, pushes and pulls. The disadvantage is loosing 
+    all the features of Git such as branches, conflict detection, 
+    merging, repository cloning... In addition, I would have to be 
+    very careful by agreeing with my collaborators what files would 
+    each of us be editting at the same time.
 
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
